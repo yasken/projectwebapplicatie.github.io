@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-image: url(../afbeeldingen/achtergrond11.png);
 }
@@ -13,6 +17,67 @@ a {
     color: white;
     text-decoration: none;
 
+}
+
+.rij::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.kolom {
+    float: left;
+    width: 33.33%;
+    padding: 4px;
+}
+
+.imgToCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+#kuleuven_img {
+    width: 80%;
+}
+
+#drone_img {
+    width: 28%
+}
+
+#piano_img {
+    width: 35%
+}
+
+#ksa_img {
+    width: 37%
+}
+
+#dramco_img1 {
+    width: 50%;
+}
+
+#lorawan_img {
+    width: 50%;
+}
+
+#htmlCss_img1 {
+    width: 54%;
+}
+
+#corona_img {
+    width: 60%;
+}
+
+#dramco_img2 {
+    width: 30%
+}
+
+#htmlCss_img2 {
+    width: 30%
+}
+
+#blanco_p {
+    width: 13.33%
 }
 
 
